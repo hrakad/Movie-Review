@@ -1,0 +1,41 @@
+header {
+  color: #fff;
+  font-family: "Lora", serif;
+  width: auto;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: rgb(71, 123, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li > a {
+  color: #fff;
+  font-family: "Josefin Slab", serif;
+  gap: 60px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie_poster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: space-around;
+}
