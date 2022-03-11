@@ -36,6 +36,30 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 40px;
+  gap: 10px;
   align-items: space-around;
+}
+
+.movie_poster > img {
+  height: 350;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+main {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.main_footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  flex-direction: column;
 }
