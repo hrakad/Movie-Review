@@ -9,7 +9,7 @@ header {
   position: sticky;
   background-color: rgb(71, 123, 255);
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 ul {
   display: flex;
