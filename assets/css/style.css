@@ -10,6 +10,7 @@ header {
   background-color: rgb(71, 123, 255);
   padding-left: 40px;
   padding-right: 20px;
+  margin-bottom: 20px;
 }
 ul {
   display: flex;
@@ -62,4 +63,16 @@ footer {
   justify-content: space-between;
   gap: 150px;
   flex-direction: column;
+}
+
+#athome-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+#athome-links > a {
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 50%;
 }
