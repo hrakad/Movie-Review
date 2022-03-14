@@ -1,6 +1,7 @@
 header {
   color: #fff;
   font-family: "Lora", serif;
+  max-width: none;
   width: auto;
   display: flex;
   height: 60px;
@@ -8,6 +9,7 @@ header {
   align-items: center;
   position: sticky;
   background-color: rgb(71, 123, 255);
+  padding-top: 10px;
   padding-left: 40px;
   padding-right: 20px;
   margin-bottom: 20px;
@@ -56,12 +58,13 @@ footer {
   display: flex;
   justify-content: center;
   padding: 30px;
+  margin-top: 80px;
 }
 
 .main_footer {
   display: flex;
   justify-content: space-between;
-  gap: 150px;
+  gap: 50px;
   flex-direction: column;
 }
 
@@ -69,6 +72,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 25px;
+  margin-top: 30px;
 }
 
 #athome-links > a {
