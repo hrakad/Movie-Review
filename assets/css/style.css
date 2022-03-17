@@ -67,6 +67,21 @@ footer {
   flex-direction: column;
 }
 
+article > img {
+  padding-top: 18px;
+  padding-left: 20px;
+  width: 60%;
+  height: 300px;
+}
+
+.news-article {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
 #athome-links {
   display: flex;
   justify-content: center;
@@ -125,5 +140,19 @@ article > h3 {
   }
   article {
     padding: 2px 10px 2px 10px;
+  }
+
+  .news-article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 2px;
+    margin-bottom: 20px;
+  }
+
+  article > img {
+    width: 95%;
+    height: 200px;
+    padding-left: 0px;
   }
 }
